@@ -1,0 +1,23 @@
+# --- Raw dataset (do NOT commit — too large, and reviewers already have Kaggle access) ---
+*.csv
+!veridi_master_dataset.csv
+!veridi_state_summary.csv
+!veridi_risk_matrix.csv
+
+# --- Notebook checkpoints / caches ---
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# --- OS / editor junk ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- Environment ---
+.env
+venv/
+env/
+
+.agents/skills/developing-with-streamlit
+.claude/skills/developing-with-streamlit
