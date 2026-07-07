@@ -16,7 +16,7 @@ import plotly.express as px
 
 st.set_page_config(
     page_title="Veridi Logistics — Delivery Performance Audit",
-    page_icon="🚚",
+    page_icon=" ",
     layout="wide",
 )
 
